@@ -50,7 +50,7 @@ DOMAIN-KEYWORD, adservice.google.com.
 # 工商银行 开屏广告
 DOMAIN, pageviewp.icbc.com.cn
 # 广告联盟
-#DOMAIN, is.snssdk.com
+DOMAIN, is.snssdk.com
 DOMAIN, mi.gdt.qq.com
 DOMAIN, open.e.kuaishou.com
 DOMAIN-SUFFIX, pangolin-sdk-toutiao.com
@@ -114,10 +114,6 @@ DOMAIN, sdkmonitor.biz.weibo.com
 # ======= X ======= #
 # 小米
 DOMAIN, sdkconfig.ad.xiaomi.com
-# 迅雷 解除版权限制
-#DOMAIN, hub5btmain.v6.shub.sandai.net
-#DOMAIN, hub5emu.v6.shub.sandai.net
-#DOMAIN, hub5idx.v6.shub.sandai.net
 
 # ======= Y ======= #
 # 云闪付 开屏广告

@@ -77,7 +77,7 @@ DOMAIN, adui.tg.meitu.com
 # 美团
 DOMAIN, maplocatesdksnapshot.d.meituan.net, REJECT
 DOMAIN, metrics-picture.d.meituan.net, REJECT
-IP-CIDR, 103.37.155.60/32, REJECT, no-resolve
+IP-CIDR, 103.37.155.60/32, REJECT
 
 # ======= O ======= #
 # Outlook

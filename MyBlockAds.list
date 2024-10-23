@@ -229,9 +229,6 @@ DOMAIN, dns.weixin.qq.com.cn, REJECT
 DOMAIN, sdkconfig.ad.xiaomi.com, REJECT
 
 # ======= Y ======= #
-# 移花宫
-DOMAIN, tong.8888888888.bid, REJECT
-
 # 云闪付 开屏广告
 DOMAIN, ads.95516.com, REJECT
 DOMAIN, switch.cup.com.cn, REJECT

@@ -218,12 +218,6 @@ HOST, tmeadcomm.y.qq.com, REJECT
 HOST, tpns.qq.com, REJECT
 IP-CIDR, 47.110.187.87/32, REJECT
 
-# ======= W ======= #
-# 微信
-HOST-SUFFIX, wxs.qq.com, REJECT
-HOST, badjs.weixinbridge.com, REJECT
-HOST, dns.weixin.qq.com.cn, REJECT
-
 # ======= X ======= #
 # 小米
 HOST, sdkconfig.ad.xiaomi.com, REJECT

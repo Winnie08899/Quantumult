@@ -10,15 +10,15 @@ HOST, vs6.bj2ct.u3.ucweb.com, REJECT
 HOST-SUFFIX, u3.ucweb.com, REJECT
 
 # Apple
-HOST,  api-adservices.apple.com
-HOST-SUFFIX,  iadsdk.apple.com
+HOST,  api-adservices.apple.com, REJECT
+HOST-SUFFIX,  iadsdk.apple.com, REJECT
 
 ## 阿里云
-IP-CIDR, 203.107.1.1/24
+IP-CIDR, 203.107.1.1/24, REJECT
 
 # ======= B ======= #
 # 百度
-HOST-SUFFIX,  pos.baidu.com
+HOST-SUFFIX,  pos.baidu.com, REJECT
 
 # ======= C ======= #
 # Clue 智库
@@ -33,13 +33,13 @@ HOST, images.ctfassets.net, REJECT
 # Flurry
 HOST, data.flurry.com, REJECT
 # Foreca & Google
-HOST, adservice.google.com
-HOST, googleads.g.doubleclick-cn.net
-HOST, googleads.g.doubleclick.net
-HOST, pubads.g.doubleclick.net
-HOST, pagead2.googlesyndication.com
-HOST, www.googleadservices.com
-HOST-KEYWORD, adservice.google.com.
+HOST, adservice.google.com, REJECT
+HOST, googleads.g.doubleclick-cn.net, REJECT
+HOST, googleads.g.doubleclick.net, REJECT
+HOST, pubads.g.doubleclick.net, REJECT
+HOST, pagead2.googlesyndication.com, REJECT
+HOST, www.googleadservices.com, REJECT
+HOST-KEYWORD, adservice.google.com., REJECT
 
 # ======= H ======= #
 # HTTPDNS 服务器
@@ -144,5 +144,5 @@ IP-CIDR, 103.41.167.237/32, REJECT
 IP6-CIDR, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, REJECT
 
 # 字节跳动
-HOST, ad.zijieapi.com
-HOST-KEYWORD, -ad-sign.byteimg.com
+HOST, ad.zijieapi.com, REJECT
+HOST-KEYWORD, -ad-sign.byteimg.com, REJECT

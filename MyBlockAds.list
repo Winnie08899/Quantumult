@@ -252,9 +252,6 @@ HOST, tysdk.95516.com, REJECT
 # Yandex
 HOST, yandexmetrica.com, REJECT
 
-# ======= REGEX ======= #
-URL-REGEX, ^http:\/\/\w{32}\.jddebug\.com\/diagnose\?, REJECT
-
 # ======= Z ======= #
 # 知乎
 HOST, appcloud.zhihu.com, REJECT

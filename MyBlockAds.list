@@ -81,6 +81,11 @@ HOST, statics.woozooo.com, REJECT
 HOST, aaid.uyunad.com, REJECT
 HOST, adui.tg.meitu.com, REJECT
 
+# 美团
+HOST, maplocatesdksnapshot.d.meituan.net, REJECT
+HOST, metrics-picture.d.meituan.net, REJECT
+IP-CIDR, 103.37.155.60/32, REJECT
+
 # ======= O ======= #
 # Outlook
 HOST, acdn.adnxs.com, REJECT

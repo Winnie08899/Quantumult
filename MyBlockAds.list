@@ -148,6 +148,11 @@ HOST, g.koowo.com, REJECT
 HOST, mobilead.kuwo.cn, REJECT
 HOST, rich.kuwo.cn, REJECT
 
+# 酷狗音乐
+HOST, adserviceretry.kglink.cn, DIRECT
+HOST, ads.service.kugou.com, REJECT
+HOST, adserviceretry.kugou.com, REJECT
+
 # ======= L ======= #
 # 蓝奏云
 HOST, pos.baidu.com, REJECT

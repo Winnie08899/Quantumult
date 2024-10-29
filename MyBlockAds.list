@@ -59,6 +59,7 @@ HOST, pageviewp.icbc.com.cn, REJECT
 HOST, is.snssdk.com, REJECT
 HOST, mi.gdt.qq.com, REJECT
 HOST, open.e.kuaishou.com, REJECT
+HOST, adservice.sigmob.cn, REJECT
 HOST-SUFFIX, pangolin-sdk-toutiao.com, REJECT
 HOST-SUFFIX, pangolin-sdk-toutiao-b.com, REJECT
 

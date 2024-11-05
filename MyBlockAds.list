@@ -7,7 +7,6 @@ HOST, lookup.api.bsb.baidu.com, REJECT
 # Apple
 HOST-SUFFIX, advp.apple.com, REJECT
 HOST-SUFFIX, iad-apple.com, REJECT
-HOST-SUFFIX, iadsdk.apple.com, REJECT
 HOST, advertising.apple.com, REJECT
 HOST, api-adservices.apple.com, REJECT
 HOST, apple.comscoreresearch.com, REJECT

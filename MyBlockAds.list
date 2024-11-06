@@ -26,20 +26,6 @@ HOST, ems.youku.com, REJECT
 HOST, hudong.alicdn.com, REJECT
 HOST, ossgw.alicdn.com, REJECT
 
-# ======= B ======= #
-# 百度
-HOST-SUFFIX,  pos.baidu.com, REJECT
-HOST, mobads.baidu.com, REJECT
-
-# 百度地图
-HOST, afd.baidu.com, REJECT
-HOST, afdconf.baidu.com, REJECT
-HOST, lc.map.baidu.com, REJECT
-
-# 百度
-IP-CIDR, 180.76.76.112/32, REJECT
-IP-CIDR, 180.76.76.200/32, REJECT
-
 # ======= D ======= #
 # DNS 无响应
 HOST, adttrackingprd.hwwt8.com, REJECT

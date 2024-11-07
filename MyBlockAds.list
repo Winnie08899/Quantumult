@@ -1,3 +1,10 @@
+# > 交管12123
+host-suffix, v3.fstats.xyz, reject
+host-suffix, wss.haoyundmn.com, reject
+host-suffix, new.xiongzhangad.com, reject
+host-suffix, alexametrics.com, reject
+host-keyword, in-page-push, reject
+
 # Apple
 host, advertising.apple.com, reject
 host, api-adservices.apple.com, reject
@@ -16,62 +23,24 @@ host, webproxy-advp.iad-apple.com, reject
 host, webproxy-advp.iad-apple.com.akadns.net, reject
 host-suffix, advp.apple.com, reject
 
-# 阿里巴巴
-HOST-SUFFIX, ut.taobao.com, REJECT
-HOST, dns.alidns.com, REJECT
-HOST, ems.youku.com, REJECT
-HOST, hudong.alicdn.com, REJECT
-HOST, ossgw.alicdn.com, REJECT
-
 # 放松双眼
 HOST, adservice.sigmob.cn, REJECT
 
 # 高德地图
-HOST, amap-aos-info-nogw.amap.com, REJECT
-HOST, awaken.amap.com, REJECT
-HOST, free-aos-cdn-image.amap.com, REJECT
-
-# 广告联盟
-HOST-KEYWORD, -ad-sign.byteimg.com, REJECT
-HOST-KEYWORD, ads.g.doubleclick, REJECT
-HOST-KEYWORD, asiad.byteactivity, REJECT
-HOST-KEYWORD, pangolin-sdk-toutiao, REJECT
-HOST-KEYWORD, pangolin.snssdk.com, REJECT
-HOST-KEYWORD, pglstatp-toutiao, REJECT
-HOST-KEYWORD, video-cn.snssdk.com, REJECT
-HOST-SUFFIX, ads.linkedin.com, REJECT
-HOST-SUFFIX, ads.vungle.com, REJECT
-HOST-SUFFIX, adservice.google.com, REJECT
-HOST-SUFFIX, adukwai.com, REJECT
-HOST-SUFFIX, applovin.com, REJECT
-HOST-SUFFIX, applvn.com, REJECT
-HOST-SUFFIX, appsflyer.com, REJECT
-HOST-SUFFIX, appsflyersdk.com, REJECT
-HOST-SUFFIX, kuaishouzt.com, REJECT
-HOST-SUFFIX, miaozhen.com, REJECT
-HOST-SUFFIX, ubixioe.com, REJECT
-HOST-SUFFIX, unityads.unity3d.com, REJECT
-HOST-SUFFIX, v.smtcdns.com, REJECT
-HOST, ad.zijieapi.com, REJECT
-HOST, adapi.izuiyou.com, REJECT
-HOST, adtracker.adfunlink.com, REJECT
-HOST, dig.bdurl.net, REJECT
-HOST, dsp-x.jd.com, REJECT
-HOST, et.tanx.com, REJECT
-HOST, gdfp.gifshow.com, REJECT
-HOST, init.supersonicads.com, REJECT
-HOST, janapi.jd.com, REJECT
-HOST, lf-ad-ies.bytecdn.cn, REJECT
-HOST, mercury-gateway.ixiaochuan.cn, REJECT
-HOST, mon.toutiaocloud.com, REJECT
-HOST, open.e.kuaishou.com, REJECT
-HOST, open.kuaishou.com, REJECT
-HOST, pagead2.googlesyndication-cn.com, REJECT
-HOST, pagead2.googlesyndication.com, REJECT
-HOST, sdk.e.qq.com, REJECT
-HOST, tangram.e.qq.com, REJECT
-HOST, ws.tapjoyads.com, REJECT
-HOST, www.googleadservices.com, REJECT
+host-suffix, adiu.amap.com, reject
+host, aboard.apilocate.amap.com, reject
+host, apiinit.amap.com, reject
+host, icloud-amap.com, reject
+host, logs.amap.com, reject
+host-suffix, dualstack-logs.amap.com, reject
+host-suffix, logs.amap.com, reject
+host-suffix, optimus-ads.amap.com, reject
+host-suffix, page.amap.com, reject
+host, optimus-ads.amap.com, reject
+host, optimus-ads.amap.com.w.alikunlun.com, reject
+host-suffix, shouji.sougou.com, reject
+host, u51.me, reject
+host-suffix, u51.me, reject
 
 # 京东
 host-suffix, jzt.jd.com, reject
@@ -85,6 +54,40 @@ host-keyword, kepler.jd.com, reject
 host-keyword, bdsp.x.jd.com, reject
 host-keyword, keplerapi.jd.com, reject
 host-keyword, mapi.m.jd.com, reject
+
+# > 淘宝
+host-suffix, apoll.m.taobao.com, reject
+host-suffix, h-adashx.ut.taobao.com, reject
+host-suffix, w.m.taobao.com, reject
+host, tunion-api.m.taobao.com, reject
+host-suffix, re.m.taobao.com, reject
+host-suffix, agoodm.m.taobao.com, reject
+host-suffix, ai.taobao.com, reject
+host-suffix, api.waptest.taobao.com, reject
+host-suffix, dsp.simba.taobao.com, reject
+host-suffix, fav.simba.taobao.com, reject
+host-suffix, m.simba.taobao.com, reject
+host-suffix, mclick.simba.taobao.com, reject
+host-suffix, re.taobao.com, reject
+host-suffix, redirect.simba.taobao.com, reject
+host-suffix, simba.m.taobao.com, reject
+host-suffix, srd.simba.taobao.com, reject
+host-suffix, temai.taobao.com, reject
+host-suffix, textlink.simba.taobao.com, reject
+host-suffix, unitacs.m.taobao.com, reject
+host-suffix, acs4baichuan.m.taobao.com, reject
+host-suffix, adashbc.ut.taobao.com, reject
+host-suffix, adash-c.ut.taobao.com, reject
+host-suffix, adashxgc.ut.taobao.com, reject
+host-suffix, adashx4yt.m.taobao.com, reject
+host-suffix, tunion-api.m.taobao.com, reject
+host-suffix, tns.simba.taobao.com, reject
+host-suffix, click.mz.simba.taobao.com, reject
+host-suffix, click.simba.taobao.com, reject
+host-suffix, click.tz.simba.taobao.com, reject
+host-suffix, stat.simba.taobao.com, reject
+host-suffix, m-adash.m.taobao.com, reject
+host-suffix, adashbc.m.taobao.com, reject
 
 # 美团
 host, flowplus.meituan.net, reject
@@ -103,8 +106,3 @@ host-suffix, d.meituan.net, reject
 HOST, acdn.adnxs.com, REJECT
 HOST, mediation.adnxs.com, REJECT
 HOST, sin3-ib.adnxs.com, REJECT
-
-# Speedtest
-HOST-KEYWORD, -adsystem.com, REJECT
-HOST, ads.pubmatic.com, REJECT
-HOST, id.hadron.ad.gt, REJECT

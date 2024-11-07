@@ -65,7 +65,7 @@ host-keyword, bdsp.x.jd.com, reject
 host-keyword, keplerapi.jd.com, reject
 host-keyword, mapi.m.jd.com, reject
 
-# > 淘宝
+# 淘宝
 host-suffix, apoll.m.taobao.com, reject
 host-suffix, h-adashx.ut.taobao.com, reject
 host-suffix, w.m.taobao.com, reject
@@ -116,9 +116,3 @@ host-suffix, d.meituan.net, reject
 HOST, acdn.adnxs.com, REJECT
 HOST, mediation.adnxs.com, REJECT
 HOST, sin3-ib.adnxs.com, REJECT
-
-# 字节跳动
-host, ad.zijieapi.com, reject
-host, applog.zijieapi.com, reject
-host-suffix, -normal-lq.zijieapi.com, reject
-HOST-KEYWORD, -ad-sign.byteimg.com, reject

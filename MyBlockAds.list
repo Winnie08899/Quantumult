@@ -21,14 +21,9 @@ HOST, ems.youku.com, REJECT
 HOST, hudong.alicdn.com, REJECT
 HOST, ossgw.alicdn.com, REJECT
 
-# ======= F ======= #
-# Flurry
-HOST, data.flurry.com, REJECT
-
 # 放松双眼
 HOST, adservice.sigmob.cn, REJECT
 
-# ======= G ======= #
 # 高德地图
 HOST, amap-aos-info-nogw.amap.com, REJECT
 HOST, awaken.amap.com, REJECT
@@ -76,7 +71,6 @@ HOST, tangram.e.qq.com, REJECT
 HOST, ws.tapjoyads.com, REJECT
 HOST, www.googleadservices.com, REJECT
 
-# ======= J ======= #
 # 京东
 host-suffix, jzt.jd.com, reject
 host-suffix, img-x.jd.com, reject
@@ -103,7 +97,6 @@ host-suffix, mads.meituan.com, reject
 host-suffix, dreport.meituan.net, reject
 host-suffix, d.meituan.net, reject
 
-# ======= O ======= #
 # Outlook
 HOST, acdn.adnxs.com, REJECT
 HOST, mediation.adnxs.com, REJECT
@@ -113,35 +106,3 @@ HOST, sin3-ib.adnxs.com, REJECT
 HOST-KEYWORD, -adsystem.com, REJECT
 HOST, ads.pubmatic.com, REJECT
 HOST, id.hadron.ad.gt, REJECT
-
-# ======= T ======= #
-# 腾讯 无法使用的推送服务
-HOST-KEYWORD, trace.qq.com, REJECT
-HOST-KEYWORD, trace.video.qq.com, REJECT
-HOST-SUFFIX, gdt.qq.com, REJECT
-HOST-SUFFIX, l.qq.com, REJECT
-HOST, adsmind.gdtimg.com, REJECT
-HOST, info4.video.qq.com, REJECT
-HOST, info6.video.qq.com, REJECT
-HOST, ios.video.mpush.qq.com, REJECT
-HOST, otheve.beacon.qq.com, REJECT
-HOST, pgdt.gtimg.cn, REJECT
-HOST, pgdt.ugdtimg.com, REJECT
-HOST, tmead.y.qq.com, REJECT
-HOST, tmeadbak.y.qq.com, REJECT
-HOST, tmeadcomm.y.qq.com, REJECT
-HOST, tpns.qq.com, REJECT
-IP-CIDR, 47.110.187.87/32, REJECT
-
-# ======= X ======= #
-# 小米
-HOST, sdkconfig.ad.xiaomi.com, REJECT
-
-# ======= Y ======= #
-# 云闪付 开屏广告
-HOST, ads.95516.com, REJECT
-HOST, cm-10-138.getui.com, REJECT
-HOST, sdk.open.talk.getui.net, REJECT
-HOST, sdk-conf.getui.com, REJECT
-HOST, switch.cup.com.cn, REJECT
-HOST, tysdk.95516.com, REJECT

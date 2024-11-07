@@ -26,6 +26,13 @@ host-suffix, advp.apple.com, reject
 # 放松双眼
 HOST, adservice.sigmob.cn, REJECT
 
+# 抖音
+host, ad.zijieapi.com, reject
+host, applog.zijieapi.com, reject
+host-suffix, -normal-lq.zijieapi.com, reject
+host-keyword, bds.snssdk.com, reject
+host-keyword, p3.pstatp.com, reject
+
 # 高德地图
 host-suffix, adiu.amap.com, reject
 host, aboard.apilocate.amap.com, reject

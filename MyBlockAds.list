@@ -33,7 +33,7 @@ HOST, googleads.g.doubleclick.net, REJECT
 HOST, pubads.g.doubleclick.net, REJECT
 HOST, pagead2.googlesyndication.com, REJECT
 
-# > 广告联盟
+# 广告联盟
 host-suffix, miaozhen.com, reject
 host-suffix, ad-sign.byteimg.com, reject
 host-suffix, tos.pstatp.com, reject

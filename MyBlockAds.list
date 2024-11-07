@@ -24,11 +24,11 @@ host, webproxy-advp.iad-apple.com.akadns.net, reject
 host-suffix, advp.apple.com, reject
 
 # > 抖音
-host-keyword, bds.snssdk.com, reject
-host-keyword, p3.pstatp.com, reject
 host, ad.zijieapi.com, reject
 host, applog.zijieapi.com, reject
 host-suffix, -normal-lq.zijieapi.com, reject
+host-keyword, bds.snssdk.com, reject
+host-keyword, p3.pstatp.com, reject
 
 # 放松双眼
 HOST, adservice.sigmob.cn, REJECT

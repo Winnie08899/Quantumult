@@ -112,3 +112,8 @@ host-suffix, d.meituan.net, reject
 HOST, acdn.adnxs.com, REJECT
 HOST, mediation.adnxs.com, REJECT
 HOST, sin3-ib.adnxs.com, REJECT
+
+# 字节跳动
+HOST, ad.zijieapi.com
+HOST-KEYWORD, -ad-sign.byteimg.com
+

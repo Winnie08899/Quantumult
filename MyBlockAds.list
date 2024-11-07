@@ -27,10 +27,13 @@ host-suffix, advp.apple.com, reject
 HOST, adservice.sigmob.cn, REJECT
 
 # Google
-HOST, googleads.g.doubleclick-cn.net, REJECT
-HOST, googleads.g.doubleclick.net, REJECT
-HOST, pubads.g.doubleclick.net, REJECT
-HOST, pagead2.googlesyndication.com, REJECT
+HOST, adservice.google.com
+HOST, googleads.g.doubleclick-cn.net
+HOST, googleads.g.doubleclick.net
+HOST, pubads.g.doubleclick.net
+HOST, pagead2.googlesyndication.com
+HOST, www.googleadservices.com
+HOST-KEYWORD, adservice.google.com.
 
 # 抖音
 host, ad.zijieapi.com, reject

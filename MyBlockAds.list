@@ -26,7 +26,7 @@ host-suffix, advp.apple.com, reject
 # 放松双眼
 HOST, adservice.sigmob.cn, REJECT
 
-host-suffix, doubleclick.net, reject
+Host-suffix, doubleclick.net, reject
 
 # 抖音
 host, ad.zijieapi.com, reject

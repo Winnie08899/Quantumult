@@ -23,7 +23,11 @@ host, webproxy-advp.iad-apple.com, reject
 host, webproxy-advp.iad-apple.com.akadns.net, reject
 host-suffix, advp.apple.com, reject
 
-
+# 谷歌
+HOST, googleads.g.doubleclick-cn.net, REJECT
+HOST, googleads.g.doubleclick.net, REJECT
+HOST, pubads.g.doubleclick.net, REJECT
+HOST, pagead2.googlesyndication.com, REJECT
 
 # 放松双眼
 HOST, adservice.sigmob.cn, REJECT

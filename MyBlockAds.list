@@ -1,9 +1,4 @@
 # ======= A ======= #
-# 安全浏览限制解除
-HOST-KEYWORD, safebrowsing., REJECT
-HOST-SUFFIX, u3.ucweb.com, REJECT
-HOST, lookup.api.bsb.baidu.com, REJECT
-
 # Apple
 HOST-SUFFIX, advp.apple.com, REJECT
 HOST-SUFFIX, iad-apple.com, REJECT
@@ -25,10 +20,6 @@ HOST, dns.alidns.com, REJECT
 HOST, ems.youku.com, REJECT
 HOST, hudong.alicdn.com, REJECT
 HOST, ossgw.alicdn.com, REJECT
-
-# ======= D ======= #
-# DNS 无响应
-HOST, adttrackingprd.hwwt8.com, REJECT
 
 # ======= F ======= #
 # Flurry
@@ -85,17 +76,19 @@ HOST, tangram.e.qq.com, REJECT
 HOST, ws.tapjoyads.com, REJECT
 HOST, www.googleadservices.com, REJECT
 
-# ======= H ======= #
-# httpdns
-HOST-KEYWORD, httpdns., REJECT
-HOST-KEYWORD, httpdns-, REJECT
-HOST, hdns.ksyun.com, REJECT
-
 # ======= J ======= #
 # 京东
-HOST, dns.jd.com, REJECT
-IP-CIDR, 101.124.19.122/32, REJECT
-IP-CIDR6, 2402:db40:5100:1011::5/128, REJECT
+host-suffix, jzt.jd.com, reject
+host-suffix, img-x.jd.com, reject
+host-suffix, du.jd.com, reject
+host-suffix, c-nfa.jd.com, reject
+host-suffix, cm.jd.com, reject
+host-suffix, jddebug.com, reject
+host-keyword, policy.jd.com, reject
+host-keyword, kepler.jd.com, reject
+host-keyword, bdsp.x.jd.com, reject
+host-keyword, keplerapi.jd.com, reject
+host-keyword, mapi.m.jd.com, reject
 
 # 美团
 host, flowplus.meituan.net, reject
@@ -115,15 +108,6 @@ host-suffix, d.meituan.net, reject
 HOST, acdn.adnxs.com, REJECT
 HOST, mediation.adnxs.com, REJECT
 HOST, sin3-ib.adnxs.com, REJECT
-
-# 其他
-DOMAIN, affcpatrk.com, REJECT
-
-# ======= S ======= #
-# 什么值得买
-HOST, api.zuihuimai.com, REJECT
-# 数字联盟
-HOST-SUFFIX, shuzilm.cn, REJECT
 
 # Speedtest
 HOST-KEYWORD, -adsystem.com, REJECT

@@ -114,6 +114,6 @@ HOST, mediation.adnxs.com, REJECT
 HOST, sin3-ib.adnxs.com, REJECT
 
 # 字节跳动
-HOST, ad.zijieapi.com
-HOST-KEYWORD, -ad-sign.byteimg.com
+HOST, ad.zijieapi.com, REJECT
+HOST-KEYWORD, -ad-sign.byteimg.com, REJECT
 

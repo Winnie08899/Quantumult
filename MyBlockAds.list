@@ -27,10 +27,6 @@ host-suffix, iadsdk.apple.com, reject
 # 放松双眼
 HOST, adservice.sigmob.cn, REJECT
 
-# 抖音
-host-keyword, bds.snssdk.com, reject
-host-keyword, p3.pstatp.com, reject
-
 # Google
 HOST, googleads.g.doubleclick-cn.net, REJECT
 HOST, pubads.g.doubleclick.net, REJECT

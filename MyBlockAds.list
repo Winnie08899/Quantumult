@@ -1,18 +1,20 @@
-# ======= A ======= #
 # Apple
-HOST-SUFFIX, advp.apple.com, REJECT
-HOST-SUFFIX, iad-apple.com, REJECT
-HOST, advertising.apple.com, REJECT
-HOST, api-adservices.apple.com, REJECT
-HOST, apple.comscoreresearch.com, REJECT
-HOST, banners.itunes.apple.com, REJECT
-HOST, iad.apple.com, REJECT
-HOST, iadcontent.apple.com, REJECT
-HOST, iadctest.qwapi.com, REJECT
-HOST, iadmoo.apple.com, REJECT
-HOST, iadworkbench.apple.com, REJECT
-HOST, launch.apple.com, REJECT
-HOST, qwapi.apple.com, REJECT
+host, advertising.apple.com, reject
+host, api-adservices.apple.com, reject
+host, apple.comscoreresearch.com, reject
+host, banners.itunes.apple.com, reject
+host, iad.apple.com, reject
+host, iadcontent.apple.com, reject
+host, iadctest.qwapi.com, reject
+host, iadmoo.apple.com, reject
+host, iadworkbench.apple.com, reject
+host, launch.apple.com, reject
+host, metrics.apple.com, reject
+host, qwapi.apple.com, reject
+host, securemetrics.apple.com, reject
+host, webproxy-advp.iad-apple.com, reject
+host, webproxy-advp.iad-apple.com.akadns.net, reject
+host-suffix, advp.apple.com, reject
 
 # 阿里巴巴
 HOST-SUFFIX, ut.taobao.com, REJECT

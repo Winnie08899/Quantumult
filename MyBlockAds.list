@@ -27,9 +27,6 @@ host-suffix, advp.apple.com, reject
 HOST, adservice.sigmob.cn, REJECT
 
 # 抖音
-host, ad.zijieapi.com, reject
-host, applog.zijieapi.com, reject
-host-suffix, -normal-lq.zijieapi.com, reject
 host-keyword, bds.snssdk.com, reject
 host-keyword, p3.pstatp.com, reject
 
@@ -119,3 +116,8 @@ host-suffix, d.meituan.net, reject
 HOST, acdn.adnxs.com, REJECT
 HOST, mediation.adnxs.com, REJECT
 HOST, sin3-ib.adnxs.com, REJECT
+
+# 字节跳动
+host, ad.zijieapi.com, reject
+host, applog.zijieapi.com, reject
+host-suffix, -normal-lq.zijieapi.com, reject

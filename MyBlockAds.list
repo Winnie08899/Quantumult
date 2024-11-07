@@ -25,22 +25,6 @@ HOST, googleads.g.doubleclick-cn.net, REJECT
 HOST, pubads.g.doubleclick.net, REJECT
 HOST, pagead2.googlesyndication.com, REJECT
 
-# 高德地图
-host-suffix, adiu.amap.com, reject
-host, aboard.apilocate.amap.com, reject
-host, apiinit.amap.com, reject
-host, icloud-amap.com, reject
-host, logs.amap.com, reject
-host-suffix, dualstack-logs.amap.com, reject
-host-suffix, logs.amap.com, reject
-host-suffix, optimus-ads.amap.com, reject
-host-suffix, page.amap.com, reject
-host, optimus-ads.amap.com, reject
-host, optimus-ads.amap.com.w.alikunlun.com, reject
-host-suffix, shouji.sougou.com, reject
-host, u51.me, reject
-host-suffix, u51.me, reject
-
 # 京东
 host-suffix, jzt.jd.com, reject
 host-suffix, img-x.jd.com, reject
@@ -105,4 +89,3 @@ host-suffix, d.meituan.net, reject
 HOST, acdn.adnxs.com, REJECT
 HOST, mediation.adnxs.com, REJECT
 HOST, sin3-ib.adnxs.com, REJECT
-

@@ -32,6 +32,8 @@ host-keyword, p3.pstatp.com, reject
 
 # Google
 HOST, googleads.g.doubleclick-cn.net, REJECT
+HOST, googleads.g.doubleclick.net, REJECT
+HOST, pubads.g.doubleclick.net, REJECT
 HOST, pagead2.googlesyndication.com, REJECT
 
 # 高德地图

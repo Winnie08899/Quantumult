@@ -1,4 +1,6 @@
 # Apple
+host, xp.apple.com, reject
+host, gdmf.apple.com, reject
 host, advertising.apple.com, reject
 host, api-adservices.apple.com, reject
 host, apple.comscoreresearch.com, reject

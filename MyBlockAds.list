@@ -1,6 +1,4 @@
 # Apple
-host, xp.apple.com, reject
-host, gdmf.apple.com, reject
 host, advertising.apple.com, reject
 host, api-adservices.apple.com, reject
 host, apple.comscoreresearch.com, reject
@@ -18,6 +16,10 @@ host, webproxy-advp.iad-apple.com, reject
 host, webproxy-advp.iad-apple.com.akadns.net, reject
 host-suffix, advp.apple.com, reject
 host-suffix, iadsdk.apple.com, reject
+
+# 屏蔽系统更新
+host, xp.apple.com, reject
+host, gdmf.apple.com, reject
 
 # 放松双眼
 HOST, adservice.sigmob.cn, REJECT

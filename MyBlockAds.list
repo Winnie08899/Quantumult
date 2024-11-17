@@ -1,10 +1,8 @@
 # 放松双眼
 HOST, adservice.sigmob.cn, REJECT
 
-# Google
-HOST, googleads.g.doubleclick-cn.net, REJECT
-HOST, pubads.g.doubleclick.net, REJECT
-HOST, pagead2.googlesyndication.com, REJECT
+# TVBAnywhere
+host-keyword, ads.g.doubleclick, REJECT
 
 # 京东
 host-suffix, jzt.jd.com, reject

@@ -4,57 +4,6 @@ HOST, adservice.sigmob.cn, REJECT
 # TVBAnywhere
 host-keyword, ads.g.doubleclick, REJECT
 
-# 京东
-host-suffix, jzt.jd.com, reject
-host-suffix, img-x.jd.com, reject
-host-suffix, du.jd.com, reject
-host-suffix, c-nfa.jd.com, reject
-host-suffix, cm.jd.com, reject
-host-suffix, jddebug.com, reject
-host-keyword, policy.jd.com, reject
-host-keyword, kepler.jd.com, reject
-host-keyword, bdsp.x.jd.com, reject
-host-keyword, keplerapi.jd.com, reject
-host-keyword, mapi.m.jd.com, reject
-# 屏蔽DNS
-host, dns.jd.com, reject
-IP-CIDR, 101.124.19.122/32, reject
-IP6-CIDR, 2402:db40:5100:1011::5/128, reject
-
-# 淘宝
-host-suffix, apoll.m.taobao.com, reject
-host-suffix, h-adashx.ut.taobao.com, reject
-host-suffix, w.m.taobao.com, reject
-host, tunion-api.m.taobao.com, reject
-host-suffix, re.m.taobao.com, reject
-host-suffix, agoodm.m.taobao.com, reject
-host-suffix, ai.taobao.com, reject
-host-suffix, api.waptest.taobao.com, reject
-host-suffix, dsp.simba.taobao.com, reject
-host-suffix, fav.simba.taobao.com, reject
-host-suffix, m.simba.taobao.com, reject
-host-suffix, mclick.simba.taobao.com, reject
-host-suffix, re.taobao.com, reject
-host-suffix, redirect.simba.taobao.com, reject
-host-suffix, simba.m.taobao.com, reject
-host-suffix, srd.simba.taobao.com, reject
-host-suffix, temai.taobao.com, reject
-host-suffix, textlink.simba.taobao.com, reject
-host-suffix, unitacs.m.taobao.com, reject
-host-suffix, acs4baichuan.m.taobao.com, reject
-host-suffix, adashbc.ut.taobao.com, reject
-host-suffix, adash-c.ut.taobao.com, reject
-host-suffix, adashxgc.ut.taobao.com, reject
-host-suffix, adashx4yt.m.taobao.com, reject
-host-suffix, tunion-api.m.taobao.com, reject
-host-suffix, tns.simba.taobao.com, reject
-host-suffix, click.mz.simba.taobao.com, reject
-host-suffix, click.simba.taobao.com, reject
-host-suffix, click.tz.simba.taobao.com, reject
-host-suffix, stat.simba.taobao.com, reject
-host-suffix, m-adash.m.taobao.com, reject
-host-suffix, adashbc.m.taobao.com, reject
-
 # 美团
 host, flowplus.meituan.net, reject
 host-suffix, analytics.meituan.net, reject

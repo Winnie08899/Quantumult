@@ -20,6 +20,14 @@ host, dns.jd.com, reject
 IP-CIDR, 101.124.19.122/32, reject
 IP6-CIDR, 2402:db40:5100:1011::5/128, reject
 
+# 淘宝
+host,adashx.m.taobao.com,REJECT
+host,ossgw.alicdn.com,REJECT
+host,ems.youku.com,REJECT
+host,hudong.alicdn.com,REJECT
+host,h-adashx.ut.taobao.com,REJECT
+host,ut.taobao.com,REJECT
+
 # 美团
 host, flowplus.meituan.net, reject
 host-suffix, analytics.meituan.net, reject

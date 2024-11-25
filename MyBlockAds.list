@@ -1,6 +1,3 @@
-# 放松双眼
-HOST, adservice.sigmob.cn, REJECT
-
 # TVBAnywhere
 host-keyword, ads.g.doubleclick, REJECT
 

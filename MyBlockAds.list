@@ -1,7 +1,4 @@
 # 屏蔽系统更新
-host, xp.apple.com, reject
-host, gdmf.apple.com, reject
-
 # TVBAnywhere
 host-keyword, ads.g.doubleclick, REJECT
 
